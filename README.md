@@ -11,7 +11,7 @@
 </details>
 
 ### Ejemplo 3
-<details>
+<details open>
 <summary>Ejemplo 3</summary>
 
 La aplicación de prueba se muestra en la siguiente figura, permite ir probando expresiones regulares y cadenas de entradas para dichas expresiones ingresadas.
