@@ -39,11 +39,13 @@ namespace Ej3_editor_expresion_regular
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbReplace = new System.Windows.Forms.RadioButton();
             this.gbMath = new System.Windows.Forms.GroupBox();
             this.rbGroups = new System.Windows.Forms.RadioButton();
             this.rbMatches = new System.Windows.Forms.RadioButton();
             this.rbSplit = new System.Windows.Forms.RadioButton();
             this.rbMath = new System.Windows.Forms.RadioButton();
+            this.tbReplace = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.gbMath.SuspendLayout();
             this.SuspendLayout();
@@ -56,8 +58,8 @@ namespace Ej3_editor_expresion_regular
             this.tbEntrada.Name = "tbEntrada";
             this.tbEntrada.Size = new System.Drawing.Size(825, 127);
             this.tbEntrada.TabIndex = 0;
-            this.tbEntrada.Text = "grant_type=password&username=2|1542303961040|examen01&password=password1&client_i" +
-    "d=pg0HZdZvOfTJDKgf6YJUnwmA0Ioa";
+            this.tbEntrada.Text = "grant_type=password&username=2|1542313961040|examen01&password=password1&client_i" +
+    "d=pg0HZeZvOfyJDKgg6YJUnwmA0Ioa";
             // 
             // contextMenuStrip1
             // 
@@ -127,6 +129,8 @@ namespace Ej3_editor_expresion_regular
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.tbReplace);
+            this.groupBox1.Controls.Add(this.rbReplace);
             this.groupBox1.Controls.Add(this.gbMath);
             this.groupBox1.Controls.Add(this.rbSplit);
             this.groupBox1.Controls.Add(this.rbMath);
@@ -134,10 +138,21 @@ namespace Ej3_editor_expresion_regular
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(198, 199);
+            this.groupBox1.Size = new System.Drawing.Size(204, 259);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Operaciones";
+            // 
+            // rbReplace
+            // 
+            this.rbReplace.AutoSize = true;
+            this.rbReplace.Location = new System.Drawing.Point(8, 192);
+            this.rbReplace.Margin = new System.Windows.Forms.Padding(4);
+            this.rbReplace.Name = "rbReplace";
+            this.rbReplace.Size = new System.Drawing.Size(78, 21);
+            this.rbReplace.TabIndex = 10;
+            this.rbReplace.Text = "Replace";
+            this.rbReplace.UseVisualStyleBackColor = true;
             // 
             // gbMath
             // 
@@ -200,11 +215,18 @@ namespace Ej3_editor_expresion_regular
             this.rbMath.UseVisualStyleBackColor = true;
             this.rbMath.CheckedChanged += new System.EventHandler(this.rbMath_CheckedChanged);
             // 
+            // tbReplace
+            // 
+            this.tbReplace.Location = new System.Drawing.Point(89, 192);
+            this.tbReplace.Name = "tbReplace";
+            this.tbReplace.Size = new System.Drawing.Size(100, 23);
+            this.tbReplace.TabIndex = 11;
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1103, 533);
+            this.ClientSize = new System.Drawing.Size(1077, 533);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -242,6 +264,8 @@ namespace Ej3_editor_expresion_regular
         private System.Windows.Forms.GroupBox gbMath;
         private System.Windows.Forms.RadioButton rbGroups;
         private System.Windows.Forms.RadioButton rbMatches;
+        private System.Windows.Forms.RadioButton rbReplace;
+        private System.Windows.Forms.TextBox tbReplace;
     }
 }
 

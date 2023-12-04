@@ -71,6 +71,10 @@ namespace Ej3_editor_expresion_regular
                         tbSalida.Text += campo + "\r\n";
                     }
                 }
+                else if (rbReplace.Checked == true)
+                {
+                    tbSalida.Text = Regex.Replace(texto, patron, tbReplace.Text );
+                }
             }
             catch (Exception ex)
             {

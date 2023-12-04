@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej1", "Ej1\Ej1.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej2", "Ej2\Ej2.csproj", "{C08AF8A7-F36C-42E8-AF5C-E762845E579E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej3_editor_expresion_regular", "Ej3\Ej3_editor_expresion_regular.csproj", "{38BF566C-F546-4202-B66C-2DBD9703DE11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej3_editor_expresion_regular", "Ej3_editor_expresion_regular\Ej3_editor_expresion_regular.csproj", "{38BF566C-F546-4202-B66C-2DBD9703DE11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
